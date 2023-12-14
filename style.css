@@ -1,0 +1,42 @@
+body { 
+    background-color: black;
+    padding: 2em 15em;
+font-family: monospace, sans-serif;
+text-align: center;
+color:white;}
+
+header{ margin-top: 4em;}
+
+nav ul { 
+    display:flex ;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+p { font-style: italic;
+    padding-left: 5em;
+    padding-right: 5em ;}
+
+    img {  
+        max-width: 100%; }
+        img:hover { 
+            transform: scale(1.1);
+        }
+
+a { text-decoration: none;
+    color: white;
+}
+    
+.button:hover { 
+ padding: 2px;
+ transform: scale(1.2)
+
+}
+    
+footer { margin-top: 3.5em;}
+
+.footer {display: flex;
+    justify-content: right;}
+
+
+
