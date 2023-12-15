@@ -1,0 +1,57 @@
+body { 
+    background-color: black;
+    padding: 0em 15em;
+font-family: monospace, sans-serif;
+text-align: center;
+color:white;
+max-width: 100%;
+}
+
+.hr1 { margin: 0em 16.5em 1em 16.5em}
+.hr2 { margin: 0em 4em 1em 4em}
+.hr3 { margin: 0em 16em 1em 16em}
+.hr4 { margin: 0em 18em 1em 18em}
+.hr5 { margin: 0em 19em 1em 19em}
+
+header{ margin-top: 3em;
+}
+
+nav ul { 
+    display:flex ;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+main {margin-top: 2em;
+}
+
+h1 { font-size: 30px 
+}
+
+h3 { margin-top: 2.5em;}
+
+
+p { font-style: italic;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+img { max-width: 100%;
+}
+
+img:hover { transform: scale(1.05); 
+}
+
+a { text-decoration: none; color: white;
+}
+    
+.button:hover { transform: scale(1.1)
+}
+    
+footer { margin-top: 3em;
+}
+
+.footer {display: flex; justify-content: right;
+}
+
+
